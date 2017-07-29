@@ -1,0 +1,22 @@
+.search-form {
+  display: flex;
+  flex-direction: row;
+}
+
+input.question {
+  height: 15px;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #c1c1c1;
+}
+
+input.question:focus {
+  outline: none;
+}
+
+.search-form .search {
+  margin-left: 5px;
+  vertical-align: -webkit-baseline-middle;
+  font-size: 20px;
+  color: gray;
+}

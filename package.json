@@ -1,0 +1,32 @@
+{
+  "name": "easy-stackoverflow",
+  "version": "1.0.0",
+  "description": "A Chrome extension for stackoverflow, with easier look up and notifier",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "build": "webpack",
+    "watch": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomasyimgit/easy-stackoverflow.git"
+  },
+  "keywords": [
+    "chrome",
+    "extension",
+    "stackoverflow",
+    "notifier"
+  ],
+  "author": "Chang Yan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thomasyimgit/easy-stackoverflow/issues"
+  },
+  "homepage": "https://github.com/thomasyimgit/easy-stackoverflow#readme",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "webpack": "^3.3.0"
+  }
+}
