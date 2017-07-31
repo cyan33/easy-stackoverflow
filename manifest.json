@@ -8,6 +8,9 @@
   "permissions": [
     "activeTab"
   ],
+  "icons": {
+    "128": "public/128.jpg"
+  },
   "browser_action": {
     "default_icon": "public/icon.png",
     "default_popup": "public/index.html"
